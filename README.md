@@ -1,6 +1,6 @@
-- ### 问题描述：
-
 > 前言：本文章基于JDK8
+
+- ### 问题描述：
 
  &nbsp;&nbsp;新上线的项目发现项目的YoungGC时间过长，因为YoungGC的时候，整个Java进程都是Stop the world 的状态，并且YoungGC的频率很高，所以对服务的稳定性有着极大的危害。如下图：
 
